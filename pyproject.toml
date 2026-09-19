@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-immune-kernel"
+version = "1.0.0"
+description = "Autonomous Agentic Immune Hypervisor & Zero-Trust Capability Sandbox. Enforces Denning information flow lattices, attenuated cryptographic Macaroons, and anti-Moltbook Byzantine swarm firewalls."
+readme = "README.md"
+authors = [{ name = "Ahmed Hassan", email = "founder@a2zsoc.com" }]
+license = { text = "Apache-2.0" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+keywords = [
+    "agentic-security",
+    "prompt-injection-defense",
+    "zero-trust-agent",
+    "capability-security",
+    "macaroons",
+    "sandboxing",
+    "information-flow-control",
+    "owasp-agentic",
+    "byzantine-fault-tolerance",
+    "ai-safety",
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.urls]
+Homepage = "https://a2zsoc.com"
+Repository = "https://github.com/AAH20/agent-immune-kernel"
